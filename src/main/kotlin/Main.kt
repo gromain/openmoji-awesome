@@ -28,10 +28,10 @@ fun main(args: Array<String>) {
     }
     val cssBlackClasses = new.map {
         """
-        .oma-${it.annotation} {
-        background-image: url("${openmojiColorUrl(it.hexcode)}")
-    }
-    """.trimIndent()
+            .oma-black-${it.annotation} {
+                background-image: url("${openmojiBlackUrl(it.hexcode)}")
+            }
+        """.trimIndent()
     }
     println("Generated a total of ${new.count()} emoji CSS classes.")
     File("openmoji-color-awesome.css").printWriter().use { out ->
