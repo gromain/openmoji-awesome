@@ -15,9 +15,9 @@ fun main(args: Array<String>) {
     val json = URL("https://raw.githubusercontent.com/hfg-gmuend/openmoji/12.0.0/data/openmoji.json").readText()
     val result = Klaxon().parseArray<Emoji>(json) ?: listOf()
     val new = result.filter {
-        it.annotation.all { it.isLetter() || it == ' ' || it == '-' }
+        it.annotation.all { it.isLetter() || it == ' ' || it == '-' || it == ':' }
     }.map {
-        Emoji(it.hexcode.toUpperCase().split(" ").joinToString("-"), it.annotation.toLowerCase().split(" ").joinToString("-"))
+        Emoji(it.hexcode.toUpperCase().split(" ").joinToString("-"), it.annotation.toLowerCase().split(" ").joinToString("-").replace(":", ""))
     }
     val cssColorClasses = new.map {
         """
