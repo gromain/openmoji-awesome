@@ -23,7 +23,7 @@ Like in Font-Awesome, emoji sizes can be changed via `oma-lg`, `oma-bg`, `oma-2x
 - Openmoji-awesome uses [Openmoji json data](https://github.com/hfg-gmuend/openmoji/blob/master/data/openmoji.json) as its source of codepoints and descriptions.
 - To find an emoji of your liking, check out the [Openmoji emoji list](https://openmoji.org/library/). Replace spaces with hyphens to get the class name! (e.g. "man in suit levitating" becomes `oma-man-in-suit-levitating` or `oma-black-man-in-suit-levitating` 🕴)
 
-To use on your website, it is advised to download the svg files here: https://github.com/hfg-gmuend/openmoji/releases/tag/12.0.0 .
+To use on your website, it is advised to download the svg files here: https://github.com/hfg-gmuend/openmoji/releases/tag/12.4.0 .
 By default, the script will generate a css file that will look into an openmoji folder on your website.
 
 
