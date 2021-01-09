@@ -12,6 +12,8 @@ _Forked from [twemoji-amazing](https://github.com/SebastianAigner/twemoji-amazin
 
 #### Basic Usage
 
+Add the main files `openmoji-color-awesome.css` and `openmoji-black-awesome.css` to your project and then simply use the following in your HTML source:
+
 `<i class="oma oma-face-with-monocle"></i>`
 
 #### Size Options
@@ -29,7 +31,9 @@ By default, the script will generate a css file that will uses the emoji distrib
 
 #### Running the generator
 
-`./gradlew run` will generate a fresh version of both the openmoji-color-awesome and the openmoji-black-awesome file in the root directory of the project.
+`./gradlew run` will generate a fresh version of both the `openmoji-color-awesome.css` and the `openmoji-black-awesome.css` file in the root directory of the project.
+
+The script source can be found in `src/main/kotlin/Main.kt` if you want to customize the image path (Change `openmojiColorUrl` and `openmojiBlackUrl` to the URL you want to use as a source).
 
 You can integrate those in your project to use either color or black and white (or both!) emojis from Openmoji.
 
