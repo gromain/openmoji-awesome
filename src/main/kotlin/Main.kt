@@ -4,15 +4,15 @@ import com.beust.klaxon.Klaxon
 import java.io.File
 import java.net.URL
 
-fun openmojiColorUrl(unicode: String) = "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.0.0/color/svg/$unicode.svg"
-fun openmojiBlackUrl(unicode: String) = "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.0.0/black/svg/$unicode.svg"
+fun openmojiColorUrl(unicode: String) = "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/$unicode.svg"
+fun openmojiBlackUrl(unicode: String) = "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/black/svg/$unicode.svg"
 
 data class Emoji(val hexcode: String, val annotation: String)
 
 fun main(args: Array<String>) {
     val preamble = File("preamble.css")
     val preambleLines = preamble.readLines()
-    val json = URL("https://raw.githubusercontent.com/hfg-gmuend/openmoji/13.0.0/data/openmoji.json").readText()
+    val json = URL("https://raw.githubusercontent.com/hfg-gmuend/openmoji/13.1.0/data/openmoji.json").readText()
     val result = Klaxon().parseArray<Emoji>(json) ?: listOf()
     val new = result.filter {
         it.annotation.all { it.isLetter() || it == ' ' || it == '-' || it == ':' }
