@@ -69,7 +69,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-size: 5em 5em;
 }
 
-/* Generated a total of 3433 emoji CSS classes. */
+/* Generated a total of 3440 emoji CSS classes. */
 
 .oma-grinning-face {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F600.svg")
@@ -8318,6 +8318,15 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .oma-input-latin-letters {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F524.svg")
 }
+.oma-a-button-blood-type {
+    background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F170.svg")
+}
+.oma-ab-button-blood-type {
+    background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F18E.svg")
+}
+.oma-b-button-blood-type {
+    background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F171.svg")
+}
 .oma-cl-button {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F191.svg")
 }
@@ -8341,6 +8350,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .oma-ng-button {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F196.svg")
+}
+.oma-o-button-blood-type {
+    background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F17E.svg")
 }
 .oma-ok-button {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F197.svg")
@@ -8587,6 +8599,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .oma-flag-canada {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F1E8-1F1E6.svg")
+}
+.oma-flag-cocos-keeling-islands {
+    background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F1E8-1F1E8.svg")
 }
 .oma-flag-congo---kinshasa {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F1E8-1F1E9.svg")
@@ -8899,6 +8914,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .oma-flag-mali {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F1F2-1F1F1.svg")
+}
+.oma-flag-myanmar-burma {
+    background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F1F2-1F1F2.svg")
 }
 .oma-flag-mongolia {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F1F2-1F1F3.svg")
@@ -9565,6 +9583,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .oma-blue-flag {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F3F3-FE0F-200D-1F7E6.svg")
+}
+.oma-united-federation-of-planets-flag-star-trek {
+    background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F3F3-FE0F-200D-1F7E6-200D-1F30C.svg")
 }
 .oma-orange-flag {
     background-image: url("https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji@13.1.0/color/svg/1F3F3-FE0F-200D-1F7E7.svg")
