@@ -7,7 +7,7 @@ apply plugin: 'application'
 mainClassName = 'io.bazile.openmojiamazing.MainKt'
 
 group 'io.bazile'
-version '13.1.0-2'
+version '14.0.0'
 
 sourceCompatibility = 1.8
 
