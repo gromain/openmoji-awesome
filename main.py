@@ -22,6 +22,11 @@ def main():
     with open("preamble.css", "r") as preamble_file:
         preamble_lines = preamble_file.readlines()
 
+    preamble_lines = [
+        line.replace("{VERSION}", f"{VERSION}") if "{VERSION}" in line else line
+        for line in preamble_lines
+    ]
+
     response = requests.get(
         f"https://raw.githubusercontent.com/hfg-gmuend/openmoji/{VERSION}/data/openmoji.json"
     )
