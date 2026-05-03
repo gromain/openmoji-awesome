@@ -1,7 +1,7 @@
 import requests
 import json
 
-VERSION = "16.0.0"
+VERSION = "17.0.0"
 
 
 def openmoji_color_url(unicode: str) -> str:
